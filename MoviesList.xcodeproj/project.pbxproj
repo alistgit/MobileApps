@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D2A0BBAD1648FC3900D61B1F /* AnnaKarenina.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D2A0BBA91648FC3800D61B1F /* AnnaKarenina.jpg */; };
+		D2A0BBAE1648FC3900D61B1F /* PriceCheck.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D2A0BBAA1648FC3800D61B1F /* PriceCheck.jpg */; };
+		D2A0BBAF1648FC3900D61B1F /* SilverLiningsPlaybook.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D2A0BBAB1648FC3900D61B1F /* SilverLiningsPlaybook.jpg */; };
+		D2A0BBB01648FC3900D61B1F /* TheTwiligthSaga.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D2A0BBAC1648FC3900D61B1F /* TheTwiligthSaga.jpg */; };
+		D2A0BBB41648FC7200D61B1F /* MovieDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2A0BBB31648FC7200D61B1F /* MovieDetailViewController.m */; };
 		D2F6A2F11648A85500FD9315 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2F6A2F01648A85500FD9315 /* UIKit.framework */; };
 		D2F6A2F31648A85500FD9315 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2F6A2F21648A85500FD9315 /* Foundation.framework */; };
 		D2F6A2F51648A85500FD9315 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2F6A2F41648A85500FD9315 /* CoreGraphics.framework */; };
@@ -14,10 +19,17 @@
 		D2F6A2FD1648A85500FD9315 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D2F6A2FC1648A85500FD9315 /* main.m */; };
 		D2F6A3011648A85500FD9315 /* IDBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D2F6A3001648A85500FD9315 /* IDBAppDelegate.m */; };
 		D2F6A3041648A85500FD9315 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2F6A3021648A85500FD9315 /* MainStoryboard.storyboard */; };
-		D2F6A3071648A85500FD9315 /* IDBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2F6A3061648A85500FD9315 /* IDBViewController.m */; };
+		D2F6A30F1648A8C900FD9315 /* Movie.m in Sources */ = {isa = PBXBuildFile; fileRef = D2F6A30E1648A8C900FD9315 /* Movie.m */; };
+		D2F6A3121648B91500FD9315 /* MovieListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2F6A3111648B91500FD9315 /* MovieListViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D2A0BBA91648FC3800D61B1F /* AnnaKarenina.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = AnnaKarenina.jpg; sourceTree = "<group>"; };
+		D2A0BBAA1648FC3800D61B1F /* PriceCheck.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = PriceCheck.jpg; sourceTree = "<group>"; };
+		D2A0BBAB1648FC3900D61B1F /* SilverLiningsPlaybook.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = SilverLiningsPlaybook.jpg; sourceTree = "<group>"; };
+		D2A0BBAC1648FC3900D61B1F /* TheTwiligthSaga.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = TheTwiligthSaga.jpg; sourceTree = "<group>"; };
+		D2A0BBB21648FC7200D61B1F /* MovieDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MovieDetailViewController.h; sourceTree = "<group>"; };
+		D2A0BBB31648FC7200D61B1F /* MovieDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MovieDetailViewController.m; sourceTree = "<group>"; };
 		D2F6A2EC1648A85500FD9315 /* MoviesList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoviesList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2F6A2F01648A85500FD9315 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		D2F6A2F21648A85500FD9315 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -29,8 +41,10 @@
 		D2F6A2FF1648A85500FD9315 /* IDBAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IDBAppDelegate.h; sourceTree = "<group>"; };
 		D2F6A3001648A85500FD9315 /* IDBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IDBAppDelegate.m; sourceTree = "<group>"; };
 		D2F6A3031648A85500FD9315 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		D2F6A3051648A85500FD9315 /* IDBViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IDBViewController.h; sourceTree = "<group>"; };
-		D2F6A3061648A85500FD9315 /* IDBViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IDBViewController.m; sourceTree = "<group>"; };
+		D2F6A30D1648A8C900FD9315 /* Movie.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Movie.h; sourceTree = "<group>"; };
+		D2F6A30E1648A8C900FD9315 /* Movie.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Movie.m; sourceTree = "<group>"; };
+		D2F6A3101648B91500FD9315 /* MovieListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MovieListViewController.h; sourceTree = "<group>"; };
+		D2F6A3111648B91500FD9315 /* MovieListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MovieListViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,12 +91,20 @@
 		D2F6A2F61648A85500FD9315 /* MoviesList */ = {
 			isa = PBXGroup;
 			children = (
+				D2A0BBA91648FC3800D61B1F /* AnnaKarenina.jpg */,
+				D2A0BBAA1648FC3800D61B1F /* PriceCheck.jpg */,
+				D2A0BBAB1648FC3900D61B1F /* SilverLiningsPlaybook.jpg */,
+				D2A0BBAC1648FC3900D61B1F /* TheTwiligthSaga.jpg */,
 				D2F6A2FF1648A85500FD9315 /* IDBAppDelegate.h */,
 				D2F6A3001648A85500FD9315 /* IDBAppDelegate.m */,
 				D2F6A3021648A85500FD9315 /* MainStoryboard.storyboard */,
-				D2F6A3051648A85500FD9315 /* IDBViewController.h */,
-				D2F6A3061648A85500FD9315 /* IDBViewController.m */,
 				D2F6A2F71648A85500FD9315 /* Supporting Files */,
+				D2F6A30D1648A8C900FD9315 /* Movie.h */,
+				D2F6A30E1648A8C900FD9315 /* Movie.m */,
+				D2F6A3101648B91500FD9315 /* MovieListViewController.h */,
+				D2F6A3111648B91500FD9315 /* MovieListViewController.m */,
+				D2A0BBB21648FC7200D61B1F /* MovieDetailViewController.h */,
+				D2A0BBB31648FC7200D61B1F /* MovieDetailViewController.m */,
 			);
 			path = MoviesList;
 			sourceTree = "<group>";
@@ -152,6 +174,10 @@
 			files = (
 				D2F6A2FB1648A85500FD9315 /* InfoPlist.strings in Resources */,
 				D2F6A3041648A85500FD9315 /* MainStoryboard.storyboard in Resources */,
+				D2A0BBAD1648FC3900D61B1F /* AnnaKarenina.jpg in Resources */,
+				D2A0BBAE1648FC3900D61B1F /* PriceCheck.jpg in Resources */,
+				D2A0BBAF1648FC3900D61B1F /* SilverLiningsPlaybook.jpg in Resources */,
+				D2A0BBB01648FC3900D61B1F /* TheTwiligthSaga.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -164,7 +190,9 @@
 			files = (
 				D2F6A2FD1648A85500FD9315 /* main.m in Sources */,
 				D2F6A3011648A85500FD9315 /* IDBAppDelegate.m in Sources */,
-				D2F6A3071648A85500FD9315 /* IDBViewController.m in Sources */,
+				D2F6A30F1648A8C900FD9315 /* Movie.m in Sources */,
+				D2F6A3121648B91500FD9315 /* MovieListViewController.m in Sources */,
+				D2A0BBB41648FC7200D61B1F /* MovieDetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +308,7 @@
 				D2F6A30C1648A85500FD9315 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -1,5 +1,5 @@
 //
-//  IDBViewController.h
+//  MovieListViewController.h
 //  MoviesList
 //
 //  Created by Jack Mountain Lion on 11/6/55 BE.
@@ -8,6 +8,5 @@
 
 #import <UIKit/UIKit.h>
 
-@interface IDBViewController : UIViewController
-
+@interface MovieListViewController : UITableViewController
 @end
